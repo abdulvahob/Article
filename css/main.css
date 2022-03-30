@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  font-family: 'Bebas Neue', cursive;;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: #FEFEFE;
+  letter-spacing: 2px;
+}
+
+.container{
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.article-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.top-blog {
+  max-width: 50%;
+  border: 1px solid red;
+  width: 100%;
+  background-image: url('../img/Fon/bg-person1x.png');
+  background-size: cover;
+  padding: 326px 158px;
+}
+.top-blog h2{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+.top-blog-link{
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 24px;
+  background: rgba(30, 144, 255, 0.8);
+}
+.news-blog {
+  max-width: 50%;
+  width: 100%;
+  border: 1px solid red;
+  padding: 54px;
+}
+.news-blog-heading{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #999;
+}
+.news-blog-row {
+  border: 1px solid red;
+}
+.news-blog-row-card {
+  display: flex;
+  align-items: center;
+
+}
+.news-blog-row-card img{
+  margin-right: 16px;
+}
+.news-blog-row-card h3{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 4px;
+
+
+}
+
+.news-blog-row-card h3 a{
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #222;
+}
+.news-blog-row-card h3:hover{
+  color: #1E90FF;
+
+.news-blog-row-card-footer {
+}
